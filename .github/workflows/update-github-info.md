@@ -20,6 +20,9 @@ network:
     - github.com
 safe-outputs:
   create-pull-request:
+    title-prefix: "[mona] "
+    draft: true
+    fallback-as-issue: false
     max: 1
 ---
 
